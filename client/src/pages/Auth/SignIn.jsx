@@ -5,7 +5,7 @@ function SignIn() {
   return (
     <div className="center-wrap">
       <div className="section text-center">
-        <h4 className="mb-4 pb-3">Log In</h4>
+        <h4 className="mb-4 pb-3 text-amber-100 text-xl">Sign In</h4>
         <div className="form-group">
           <input
             type="email"

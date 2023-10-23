@@ -42,7 +42,7 @@ function SignUp() {
   return (
     <div className="center-wrap">
       <div className="section text-center">
-        <h4 className="mb-4 pb-3">Sign Up</h4>
+        <h4 className="mb-4 pb-3 text-amber-100 text-xl">Sign Up</h4>
         <form action="" onSubmit={handleSubmit}>
           <div className="form-group">
             <input
