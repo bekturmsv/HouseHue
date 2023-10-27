@@ -7,6 +7,7 @@ import {
   signInFailure,
 } from "../../redux/user/userSlice";
 import "./Auth.css";
+import { OAuth } from "../../components/OAuth";
 
 function SignIn() {
   const [formData, setFormData] = useState({});
@@ -74,7 +75,9 @@ function SignIn() {
             <button disabled={loading} type="submit">
               {loading ? "Loading..." : "Sign In"}
             </button>
-          </a>
+          </a>{" "}
+          <br />
+          <OAuth />
         </form>
         <p className="mb-0 mt-4 text-center">
           {error && <span className="text-red-500 mt-5">{error}</span>}

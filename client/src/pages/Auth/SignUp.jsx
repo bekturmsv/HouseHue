@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Auth.css";
+import { OAuth } from "../../components/OAuth";
 
 function SignUp() {
   const [formData, setFormData] = useState({});
@@ -82,6 +83,8 @@ function SignUp() {
               {loading ? "Loading..." : "Sign Up"}
             </button>
           </a>
+          <br />
+          <OAuth />
         </form>
         <p className="mb-0 mt-4 text-center">
           {error && <span className="text-red-500 mt-5">{error}</span>}
