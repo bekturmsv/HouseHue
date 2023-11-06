@@ -40,7 +40,7 @@ h6 span {
 }
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked) {
-  position: absolute;
+  position: inherit;
   left: -9999px;
 }
 .checkbox:checked + label,
