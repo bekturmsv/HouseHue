@@ -186,7 +186,7 @@ function Profile() {
           {loading ? "Loading..." : "Update"}
         </button>
         <Link
-          className="bg-green-700 text-white p3 rounded-lg uppercase text-center hover:opacity-80"
+          className="bg-green-700 text-white p-3 rounded-lg uppercase text-center hover:opacity-80"
           to="/create-listing"
         >
           Create Listing
